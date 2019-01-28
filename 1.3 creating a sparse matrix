@@ -2,5 +2,5 @@ import numpy as np
 from scipy import sparse
 matrix = np.array([[0,2,0],[0,2,3],[0,4,0]])
 print(matrix)
-matrix_large = sparse.csr_matrix(matrix)
-print(matrix_large)
+matrix_sparse = sparse.csr_matrix(matrix)
+print(matrix_sparse)
